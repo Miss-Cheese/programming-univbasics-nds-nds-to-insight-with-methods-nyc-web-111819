@@ -19,9 +19,11 @@ def directors_totals(nds)
     puts directorName = nds[counter][:name]
     gross_for_director(directorName)
     counter += 1
+
+    puts gross_for_director(directorName)
   end
 
-  puts gross_for_director(directorName)
+
 
   result
 end
