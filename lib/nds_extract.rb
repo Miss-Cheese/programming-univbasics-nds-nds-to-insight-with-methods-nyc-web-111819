@@ -22,7 +22,7 @@ def directors_totals(nds)
     puts "2--------------------"
     counter += 1
 
-    result[name_name] = gross_for_director(director_data)
+    result[name_name] = gross_for_director(director_hash)
 
   end
 
