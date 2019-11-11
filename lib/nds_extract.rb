@@ -7,10 +7,15 @@ require 'directors_database'
 
 def directors_totals(nds)
 
+  pp nds
+  
   result = {}
   counter = 0
 
+
+
   while counter < nds.count do
+    directorName = nds[counter]
 
     counter += 1
   end
