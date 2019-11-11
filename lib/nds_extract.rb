@@ -30,7 +30,7 @@ counter = 0
 moneygross_for_director = 0
 
 while counter < director_data[:movies].count do
-  moneygross_for_director =+ director_data[:movies]counter[:worldwide_gross]
+  moneygross_for_director =+ director_data[:movies][counter][:worldwide_gross]
   counter += 1
 end
 
