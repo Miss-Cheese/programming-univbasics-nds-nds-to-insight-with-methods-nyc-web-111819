@@ -22,7 +22,7 @@ def directors_totals(nds)
   end
 
   puts gross_for_director(directorName)
-  
+
   result
 end
 
