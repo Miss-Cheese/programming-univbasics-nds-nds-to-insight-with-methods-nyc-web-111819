@@ -20,7 +20,9 @@ def directors_totals(nds)
     gross_for_director(directorName)
     counter += 1
   end
-  puts gross_for_director
+
+  puts gross_for_director(directorName)
+  
   result
 end
 
