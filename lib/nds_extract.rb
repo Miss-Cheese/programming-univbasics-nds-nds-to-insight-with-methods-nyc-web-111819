@@ -11,7 +11,7 @@ def directors_totals(nds)
   counter = 0
 
   while counter < nds.count do
-    
+
     director_hash = nds[counter]
     name_name = director_hash[:name]
     gross_for_director(director_hash)
