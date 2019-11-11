@@ -25,7 +25,7 @@ def directors_totals(nds)
 
   end
 
-  result[name_name] = gross_for_director(director_hash) 
+  result[name_name] = gross_for_director 
 
 
   result
