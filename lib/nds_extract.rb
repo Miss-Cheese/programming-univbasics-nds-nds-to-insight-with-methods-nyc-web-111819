@@ -17,10 +17,12 @@ def directors_totals(nds)
   while counter < nds.count do
 
     puts directorName = nds[counter][:name]
+    puts --------------------
     puts gross_for_director(directorName)
+    puts --------------------
     counter += 1
 
-    
+
   end
 
 
