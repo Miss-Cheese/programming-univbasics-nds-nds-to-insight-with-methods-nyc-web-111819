@@ -16,7 +16,7 @@ def directors_totals(nds)
 
   while counter < nds.count do
     puts "----------------------"
-    puts directorName = nds[counter]
+    puts directorName = nds[counter][:name]
     puts "----------------------"
     counter += 1
   end
