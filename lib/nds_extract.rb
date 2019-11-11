@@ -7,15 +7,19 @@ require 'directors_database'
 
 def directors_totals(nds)
 
-
-
   result = {}
+  counter = 0
 
-  nil
+  while counter < nds.count do
+
+    counter += 1
+  end
+
+  result
 end
 
-# Find a way to accumulate the :worldwide_grosses and return that Integer
-# using director_data as input
+
+
 def gross_for_director(director_data)
 
 counter = 0
